@@ -1,0 +1,126 @@
+/* Estilos CSS para centrar el formulario */
+/* Palette de Colores */
+/* Custom de Boostrap */
+.navCustom {
+  background-color: #eb695b;
+  background-color: #609b12;
+}
+
+.ulCustom {
+  color: white;
+}
+
+.navLogoCustom {
+  color: #eb695b;
+}
+
+/*Fin Custom de Boostrap*/
+/*Estilos por Sections */
+.containerMain {
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .containerMain {
+    height: 120vh;
+  }
+}
+
+.titleCover {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.sectionForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+}
+.sectionForm h2 {
+  font-size: 30px;
+}
+.sectionForm form {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+}
+.sectionForm input[type=text],
+.sectionForm input[type=password] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+.sectionForm button[type=submit] {
+  background-color: #a1ebb7;
+  border: none;
+  color: bla;
+  padding: 10px 20px;
+  margin-top: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.sectionForm button[type=submit]:hover {
+  background-color: #45a049;
+}
+.sectionForm p {
+  margin-top: 20px;
+  line-height: 1px;
+}
+
+.sectionAbout {
+  background-color: rgba(0, 0, 0, 0.144);
+}
+
+.imgCustom {
+  border-radius: 20px;
+  box-shadow: 5px 5px #2D1E2F;
+  margin-bottom: 30px;
+}
+
+.btnCustom1 {
+  background-color: #609b12;
+  border: none;
+  margin: 10px;
+  color: black;
+}
+
+.btnCustom1:hover, .btnCustom2:hover {
+  background-color: #609b12;
+}
+
+.btnCustom2 {
+  background-color: #2D1E2F;
+  border: none;
+  margin: 10px;
+  color: white;
+}
+
+.btnCustom3 {
+  background-color: #010102;
+}
+
+/* FONDOS DE PANTALLA */
+.backgroundForm {
+  background-image: url("https://images.pexels.com/photos/12325277/pexels-photo-12325277.jpeg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+/* Text Custom */
+.textWhite {
+  color: white;
+}/*# sourceMappingURL=styles.module.css.map */

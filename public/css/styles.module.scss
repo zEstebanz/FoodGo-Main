@@ -1,0 +1,142 @@
+/* Estilos CSS para centrar el formulario */
+
+/* Palette de Colores */
+$salmon: #eb695b;
+$celestito: #a1ebb7;
+$celestitoOscuro: #42644c;
+$cremita: #FCF6B1;
+$amarillo: #F7B32B;
+$violet: #2D1E2F;
+$dark: #010102;
+
+$verde: #609b12;
+$marron: #864805;
+$marronClaro: #cc821b;
+$marronClaro2: #e8a443;
+
+/* Custom de Boostrap */
+.navCustom {
+    background-color: $salmon;
+    background-color: $verde;
+}
+
+.ulCustom {
+    color: white;
+}
+
+.navLogoCustom{
+    color: $salmon;
+}
+/*Fin Custom de Boostrap*/
+
+/*Estilos por Sections */
+.containerMain {
+
+    height: 100vh;
+
+    @media screen and (min-width: 768px) {
+        height: 120vh;
+    }
+}
+
+.titleCover {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.sectionForm {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+
+    h2{
+        font-size: 30px;
+    }
+    form {
+        background-color: rgba(0, 0, 0, 0.600);
+        border-radius: 5px;
+        padding: 20px;
+        width: 300px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        padding: 10px;
+        margin: 10px 0;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+    }
+
+    button[type="submit"] {
+        background-color: $celestito;
+        border: none;
+        color: bla;
+        padding: 10px 20px;
+        margin-top: 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    p{
+        margin-top: 20px;
+        line-height: 1px;
+    }
+}
+
+.sectionAbout{
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.imgCustom{
+    border-radius: 20px;
+    box-shadow: 5px 5px $violet;
+    margin-bottom: 30px;
+}
+
+.btnCustom1{
+    background-color: $verde;
+    border: none;
+    margin: 10px;
+    color: black;
+}
+
+.btnCustom1:hover, .btnCustom2:hover{
+    background-color: $verde;
+}
+
+.btnCustom2{
+    background-color: $violet;
+    border: none;
+    margin: 10px;
+    color: white;
+}
+.btnCustom3{
+    background-color: $dark;
+}
+/* FONDOS DE PANTALLA */
+.backgroundForm{
+    background-image: url("https://images.pexels.com/photos/12325277/pexels-photo-12325277.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    user-select: none;
+}
+
+/* Text Custom */
+
+.textWhite{
+    color: white;
+}
