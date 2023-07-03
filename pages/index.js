@@ -12,10 +12,6 @@ const index = () => {
 
     return (
         <div>
-            <Head>
-                <title>FoodGo</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
             <Layout>
                 <div className="container">
 

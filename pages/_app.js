@@ -3,10 +3,7 @@ import firebase, { FirebaseContext } from '../firebase';
 import useAutenticacion from '../hooks/useAutenticacion';
 
 const MyApp = props => {
-
     const usuario = useAutenticacion();
-
-    // componente actual y props de la pagina actual
     const { Component, pageProps } = props;
 
     return (

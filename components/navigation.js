@@ -35,10 +35,10 @@ const Navigation = () => {
                     ) : (
                         <ul className="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <Link class="nav-link" href="#">Iniciar sesión</Link>
+                                <Link class="nav-link" href="/login">Iniciar sesión</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" href="#">Registrarse</Link>
+                                <Link class="nav-link" href="/register">Registrarse</Link>
                             </li>
                         </ul>
                     )}
